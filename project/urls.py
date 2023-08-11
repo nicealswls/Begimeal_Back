@@ -4,6 +4,6 @@ from django.conf.urls import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #path('users/', include('app.urls')),
+    path('users/', include('signupapi.api.urls')),
     path('boards/', include('boards.urls')),
 ]
