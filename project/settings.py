@@ -40,13 +40,10 @@ INSTALLED_APPS = [
     'app',
     'boards',
     'rest_framework',
-<<<<<<< HEAD
     'corsheaders', # CORS 관련 추가
-=======
 
     'django_extensions',
     'signupapi',
->>>>>>> f62227cbd8b458f78265f366a637cd732e6f26d8
 ]
 
 MIDDLEWARE = [
